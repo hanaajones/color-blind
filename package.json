@@ -1,0 +1,22 @@
+{
+    "name": "color-blind",
+    "publisher": "hanademps",
+    "displayName": "color-blind",
+    "description": "For those that do not see well",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "color-blind",
+                "uiTheme": "vs-dark",
+                "path": "./themes/color-blind-color-theme.json"
+            }
+        ]
+    }
+}
