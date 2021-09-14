@@ -2,7 +2,7 @@
 	"name": "topo-chico",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1a2329",
+		"editor.background": "#222527",
 		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#8a8a8a",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -16,7 +16,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#58485a"
+				"foreground": "#5e5a6a"
 			}
 		},
 		{
@@ -131,12 +131,19 @@
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method",
-				"support.variable.property"
+				"support.variable.property",
+				
 			],
 			"settings": {
-				"foreground": "#6bbd90"
+				"foreground": "#8a55b0"
+				
 			}
 		},
+		{"name": "Variable Other",
+		"scope": ["variable.other.constant"],
+		"settings": {
+		"foreground": "#6bbd90",
+		}},
 		{
 			"name": "Other Variable, String Link",
 			"scope": [
@@ -155,7 +162,8 @@
 				"constant.character",
 				"constant.escape",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"punctuation.definition.string.template"
 			],
 			"settings": {
 				"foreground": "#ffe14de7"
@@ -170,7 +178,9 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"entity.name.type.interface",
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#C39AC9"
@@ -200,27 +210,6 @@
 			],
 			"settings": {
 				"foreground": "#f3c768"
-			}
-		},
-		{
-			"name": "Entity Type Interface",
-			"scope": [
-				"entity.name.type.interface",
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#C39AC9"
-			}
-		},
-		{
-			"name": "Other Entity Types",
-			"scope": [
-			
-
-			],
-			"settings": {
-				"foreground": "#C39AC9",
-				"fontStyle": "italic"
 			}
 		},
 		{
